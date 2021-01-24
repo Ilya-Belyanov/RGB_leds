@@ -1,0 +1,26 @@
+Details:
+1) RGB leds
+2) Encoder
+3) OLED display 
+
+Config for Arduino Nano
+RGB_leds
+pins:
+    DIN - D7 (через небольшой резистор)
+    5V - 5V
+    GND - GND
+
+Encoder
+pins:
+    GND - GND
+    S1 (DT) - D10
+    S2 (CLK)- D9
+    KEY (SW)- D8
+    5V - 5V
+
+OLED (library on https://github.com/jlegas/OLED_I2C)
+pins:
+    GND - GND
+    VCC - 5V
+    SDL - A5
+    SDA - A4
